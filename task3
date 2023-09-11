@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
+</head>
+<style>
+    div{
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px 0px;
+        margin:30px ;
+    }
+    .box{
+        border: 4px solid red;
+        background-color: yellow;
+        display: grid;
+        grid-template-rows: repeat(5,200px);
+        grid-template-areas: 
+        "PROFILE"
+        "EDUCATION"
+        "STRENGTHS"
+        "SKILLS"
+        "HOBBIEs"
+    }
+    .box>div{
+        padding: 20px 20px;
+    }
+    .box>div:nth-child(1){
+        border:2px solid red;
+        grid-area: PROFILE;
+    }
+    .box>div:nth-child(2){
+        border:2px solid red;
+        grid-area: EDUCATION;
+    }
+    .box>div:nth-child(3){
+        border:2px solid red;
+        grid-area: STRENGTHS;
+    }
+    .box>div:nth-child(4){
+        border: 2px solid red;
+        grid-area: SKILLS;
+    }
+    .box>div:nth-child(5){
+        border: 2px solid RED;
+        grid-area: HOBBIES;
+    }
+</style>
+<body>
+    <div class="box">
+    <div>PROFILE
+        <br>
+        <p>
+            Name : Dhathri
+            <br>
+            Date of Birth : 30-august-2004
+            <br>
+            Place :kadiri
+            <br>
+            Phone number : 9876543201
+            <br>
+            E-mail : dhatridhatri54@gmail.com
+            <br>
+            Languages known : Telugu, English
+            <br>
+        </p>
+    </div>
+    <div>EDUCATION
+        <br>
+        <p>
+            I completed my intermediate in Narayana junior College and now i am currently pursuing my bachelor's degree in the stream of Computer Science & Engineering in Madanapalle Institute of Technology and Sciences.
+        </p>
+    </div>
+    <div>STRENGTHS
+        <p>
+            Good Communication Skills
+            <br>
+            Enthustiastic in learning new things
+            <br>
+            belive in hardwork
+            <br>
+        </p>
+    </div>
+    <div>SKILLS
+        <br>
+        <p>
+            Have basic knowledge in the coding languages like C and Python
+        </p>
+    </div>
+    <div><center>HOBBIES</center>
+        <br>
+        <p>
+            watching sports
+            <br>
+            Listening to Music
+            <br>
+        </p>
+    </div>
+</div>
+</body>
+</html>
